@@ -1,0 +1,43 @@
+
+"data": 
+  "model_name": "ResNet"
+  "multi": False
+  "word": True
+  "category": False
+  "city": False
+  "prefecture": False
+
+"model":
+  "gnn_layers": 3
+  "hidden_channels": 128
+  "out_channels": 1
+  "out_dim": 512  
+
+"training":
+
+  "batch_size": 32
+  "batch_size_multiplier": 1
+  "max_epochs": 50
+  "train_split": "train"
+  "test_every_n": 1
+  "save_path": "models/qa.model"
+  "learning_rate": 3e-4
+
+"analysis":
+
+  "strategy": "GraphMask"
+  "parameters": 
+    "load": false
+    "train": true
+    "batch_size": 2
+    "batch_size_multiplier": 16
+    "learning_rate": 0.003
+    "epochs_per_layer": 30
+    "test_every_n": 1
+    "train_split": "train"
+    "save_path": "/home/yamanishi/project/trip_recommend/data/analyzer/probe.pth"
+    "penalty_scaling": 2
+    "allowance": 0.03
+    "max_allowed_performance_diff": 0.05
+  
+

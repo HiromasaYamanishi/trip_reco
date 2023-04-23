@@ -1,0 +1,22 @@
+device: cuda:2
+data:
+  word: True
+  category: True
+  city: True
+  prefecture: True
+  multi: True
+k: 20
+explain_num: 10
+epoch_num: 1500
+model:
+  model_type: sage
+  num_layers: 3
+  hidden_channels: 128
+  concat: False
+trainer:
+  lr: 0.001
+  loss_city_weight: 0.1
+  loss_category_weight: 0.1
+  city_pop_weight: 0
+  spot_pop_weight: 0
+  explain_span: 100

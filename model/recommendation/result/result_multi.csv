@@ -1,0 +1,13 @@
+recall,accuracy,best_epoch,batch_size,sampling,hidden_channels,num_layers,pre,mid,post,cat
+0.23535,0.12872,695,2048,lgcn,128,3,False,False,False,False
+0.24058,0.13098,620,2048,lgcn,128,3,False,False,False,False
+0.24008,0.13104,545,2048,lgcn,128,3,False,False,False,False
+0.23369,0.12862,365,2048,lgcn,128,3,False,False,False,False
+0.24005,0.13062,425,2048,lgcn,128,3,False,False,False,False
+0.24053,0.13123,390,2048,lgcn,128,3,False,False,False,False
+0.24068,0.13114,530,2048,lgcn,128,3,False,False,False,False
+0.23925,0.13028,435,2048,lgcn,128,3,False,False,False,False
+0.23942,0.13095,725,2048,lgcn,128,3,False,False,False,False
+0.23713,0.12923,855,2048,lgcn,128,3,False,False,False,False
+0.23772,0.12985,985,2048,lgcn,128,3,False,False,False,False
+0.17311,0.10092,465,2048,lgcn,128,3,False,False,False,False

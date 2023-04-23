@@ -1,0 +1,80 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.5
+    framework: huggingface
+    huggingface_version: 4.20.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.13
+    start_time: 1667901909.642918
+    t:
+      1:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      - 77
+      2:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      - 77
+      3:
+      - 16
+      - 23
+      4: 3.7.13
+      5: 0.13.5
+      6: 4.20.1
+      8:
+      - 5
+analysis:
+  desc: null
+  value:
+    parameters:
+      allowance: 0.03
+      batch_size: 2
+      batch_size_multiplier: 16
+      epochs_per_layer: 20
+      learning_rate: 0.001
+      load: false
+      max_allowed_performance_diff: 0.05
+      penalty_scaling: 2
+      save_path: /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+      test_every_n: 1
+      train: true
+      train_split: train
+    strategy: GraphMask
+data:
+  desc: null
+  value:
+    category: false
+    city: false
+    model_name: ResNet
+    multi: false
+    prefecture: false
+    word: true
+model:
+  desc: null
+  value:
+    gnn_layers: 3
+    hidden_channels: 128
+    out_channels: 1
+    out_dim: 512
+training:
+  desc: null
+  value:
+    batch_size: 32
+    batch_size_multiplier: 1
+    learning_rate: 3e-4
+    max_epochs: 50
+    save_path: models/qa.model
+    test_every_n: 1
+    train_split: train

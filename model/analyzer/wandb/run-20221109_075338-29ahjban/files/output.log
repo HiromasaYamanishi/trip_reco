@@ -1,0 +1,2777 @@
+Saving to path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+Enabling layer 2
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.8590, 2.6710, 2.7218,  ..., 2.6763, 2.6584, 2.8613], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10142350415383179
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 0 loss tensor(0.1105, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8536, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.5500, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530734761617 gated_score: 0.7530530731279195
+Found better probe with sparsity=1.0000. Keeping these parameters.
+Saving to path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 0 percent_div 4.624404641716991e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10144321022226371
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 1 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.6505, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.1133, 1.0101, 1.0104,  ..., 0.9870, 1.1192, 1.1304], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530713367218 gated_score: 0.7530530714973007
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 1 percent_div -2.1323714042950542e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10147795513239366
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 2 loss tensor(0.1204, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.7271, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0720, 0.9678, 0.9693,  ..., 0.9430, 1.0852, 1.0884], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530738329386 gated_score: 0.7530530688251068
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 2 percent_div 6.650038343786408e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10102575271995602
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 3 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.7898, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0523, 0.9478, 0.9497,  ..., 0.9220, 1.0693, 1.0681], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+original score: 0.7530530747623011 gated_score: 0.7530530739506567
+attention True2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10112169015837456
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 4 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.8441, device='cuda:3', requires_grad=True)tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0408, 0.9365, 0.9384,  ..., 0.9101, 1.0602, 1.0564], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True device='cuda:3', requires_grad=True)tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+attention False
+attention True
+attention True
+original score: 0.7530530727810318 gated_score: 0.7530530754383485
+attention True device='cuda:3', requires_grad=True)tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+attention True=<AddBackward0>), requires_grad=True)tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10142039266934254
+attention True
+attention False
+attention True
+attention False
+attention True=<AddBackward0>), requires_grad=True)tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+attention True
+epoch 5 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.8932, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0335, 0.9296, 0.9311,  ..., 0.9025, 1.0547, 1.0488], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530682718632 gated_score: 0.753053076349266
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 5 percent_div -1.0726206541062141e-08 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10175850731717435
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 6 loss tensor(0.1203, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.9384, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0285, 0.9248, 0.9260,  ..., 0.8974, 1.0512, 1.0436], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530674763375 gated_score: 0.7530530698779183
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 6 percent_div -3.189125609892708e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10149662403932916
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 7 loss tensor(0.1199, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(0.9808, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0251, 0.9216, 0.9226,  ..., 0.8938, 1.0489, 1.0400], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530723580766 gated_score: 0.7530530720094476
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 7 percent_div 4.629541095348552e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10096715309540849
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 8 loss tensor(0.1190, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.0206, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0227, 0.9194, 0.9201,  ..., 0.8912, 1.0474, 1.0375], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.753053074893406 gated_score: 0.753053074450038
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 8 percent_div 5.88760638200733e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10157285540931578
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 9 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.0582, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0211, 0.9182, 0.9186,  ..., 0.8895, 1.0466, 1.0359], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.753053069602916 gated_score: 0.7530530747224635
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 9 percent_div -6.798388812568663e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10087795720671666
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 10 loss tensor(0.1189, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.0943, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0201, 0.9173, 0.9177,  ..., 0.8886, 1.0463, 1.0350], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530720025608 gated_score: 0.7530530736154097
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 10 percent_div -2.14174674462745e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10135608865656472
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 11 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.1290, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0193, 0.9165, 0.9170,  ..., 0.8878, 1.0462, 1.0343], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530751803561 gated_score: 0.7530530680792282
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 11 percent_div 9.429784090869185e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10056732733853989
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 12 loss tensor(0.1189, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.1627, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0188, 0.9160, 0.9164,  ..., 0.8870, 1.0461, 1.0335], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530707492825 gated_score: 0.7530530702341955
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 12 percent_div 6.839982374171999e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1011553979070081
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 13 loss tensor(0.1188, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.1951, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0183, 0.9153, 0.9157,  ..., 0.8862, 1.0460, 1.0328], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530710269477 gated_score: 0.7530530735693306
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 13 percent_div -3.37610051350911e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10126948567161392
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 14 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.2267, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0183, 0.9152, 0.9160,  ..., 0.8865, 1.0466, 1.0331], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530747444139 gated_score: 0.753053073993284
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 14 percent_div 9.974460634930284e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 0., 0.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10175280292894406
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 15 loss tensor(0.1204, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.2577, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0182, 0.9150, 0.9158,  ..., 0.8862, 1.0468, 1.0328], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530720730877 gated_score: 0.7530530721592618
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 15 percent_div -1.1443292787352045e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10167864588195027
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 16 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.2882, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0183, 0.9149, 0.9161,  ..., 0.8865, 1.0475, 1.0333], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530718120974 gated_score: 0.7530530721017353
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 16 percent_div -3.84618284033304e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10153344327245195
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 17 loss tensor(0.1196, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.3179, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0184, 0.9150, 0.9164,  ..., 0.8867, 1.0481, 1.0336], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530746703697 gated_score: 0.7530530704888323
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 17 percent_div 5.552779200141648e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10120051443210222
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 18 loss tensor(0.1190, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.3469, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0187, 0.9152, 0.9168,  ..., 0.8869, 1.0491, 1.0338], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530722982941 gated_score: 0.7530530731345051
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 18 percent_div -1.1104276977306248e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10118910565564164
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 19 loss tensor(0.1191, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.3752, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0190, 0.9154, 0.9173,  ..., 0.8874, 1.0498, 1.0344], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530726877911 gated_score: 0.7530530735492238
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 19 percent_div -1.1439203081305764e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10180154951927564
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 20 loss tensor(0.1196, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.4030, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0195, 0.9158, 0.9179,  ..., 0.8878, 1.0506, 1.0350], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530723446138 gated_score: 0.753053070213842
+epoch
+epoch 20 percent_div 2.8295107735302038e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.101361793044795
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 21 loss tensor(0.1190, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.4306, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0198, 0.9160, 0.9182,  ..., 0.8880, 1.0512, 1.0353], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.753053072166442 gated_score: 0.75305306591425
+epoch 21 percent_div 8.302458641286505e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10099774935955277
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 22 loss tensor(0.1199, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.4576, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0207, 0.9168, 0.9192,  ..., 0.8889, 1.0525, 1.0363], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.753053071019943 gated_score: 0.7530530736966187
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 22 percent_div -3.5544316355706997e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10101382536274724
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 23 loss tensor(0.1191, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.4844, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0219, 0.9177, 0.9204,  ..., 0.8899, 1.0542, 1.0374], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530705087554 gated_score: 0.7530530731682823
+epoch 23 percent_div -3.5316593692622997e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10096093012642998
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 24 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.5107, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0228, 0.9185, 0.9216,  ..., 0.8911, 1.0553, 1.0387], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.753053069386013 gated_score: 0.7530530712595244
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 24 percent_div -2.4878875370492863e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1014369872532852
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 25 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.5368, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0233, 0.9190, 0.9220,  ..., 0.8914, 1.0560, 1.0392], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530725062494 gated_score: 0.7530530699615889
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 25 percent_div 3.379125024826974e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10128867315929764
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 26 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.5626, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0243, 0.9198, 0.9228,  ..., 0.8921, 1.0571, 1.0400], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530707386 gated_score: 0.7530530750534197
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 26 percent_div -5.729768447138244e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10123940798821784
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 27 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.5881, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0257, 0.9209, 0.9242,  ..., 0.8933, 1.0590, 1.0415], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530765304685 gated_score: 0.7530530764670736
+epoch 27 percent_div 8.418376726007056e-11 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10113984048456186
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 28 loss tensor(0.1199, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+tensor(1.6135, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0264, 0.9215, 0.9250,  ..., 0.8941, 1.0600, 1.0424], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530746792293 gated_score: 0.75305307664287
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 28 percent_div -2.6075727734431046e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10144321022226371
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+epoch 29 loss tensor(0.1189, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.6386, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0277, 0.9226, 0.9263,  ..., 0.8954, 1.0613, 1.0437], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention False
+attention True
+attention True
+original score: 0.7530530703268877 gated_score: 0.7530530728715037
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+Enabling layer 1
+epoch 29 percent_div -3.3790659153422564e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10143439434954417
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 0 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.6631, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4197, 1.5008, 1.3847,  ..., 1.2650, 1.6493, 1.2164], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0282, 0.9229, 0.9269,  ..., 0.8959, 1.0621, 1.0444], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530727050154 gated_score: 0.7530530698022733
+epoch 0 percent_div 3.854631583035914e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10151477436551645
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 1 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+tensor(1.6877, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4155, 1.4964, 1.3832,  ..., 1.2665, 1.6471, 1.2155], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0290, 0.9236, 0.9277,  ..., 0.8966, 1.0634, 1.0451], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530744428577 gated_score: 0.7530530710519093
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 1 percent_div 4.502934157013651e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10170405633861249
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 2 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.7122, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4152, 1.5010, 1.3867,  ..., 1.2668, 1.6445, 1.2147], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0295, 0.9241, 0.9285,  ..., 0.8973, 1.0643, 1.0461], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530710021416 gated_score: 0.7530530699149861
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 2 percent_div 1.4436638247906674e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10136905317526992
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 3 loss tensor(0.1192, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.7364, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4219, 1.5069, 1.3894,  ..., 1.2663, 1.6475, 1.2185], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0296, 0.9244, 0.9288,  ..., 0.8975, 1.0652, 1.0464], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530698322501 gated_score: 0.7530530757779961
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 3 percent_div -7.895520574634951e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10121399753155563
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 4 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.7603, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4191, 1.5032, 1.3872,  ..., 1.2683, 1.6468, 1.2183], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0312, 0.9257, 0.9303,  ..., 0.8989, 1.0668, 1.0479], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530740298275 gated_score: 0.7530530691930662
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 4 percent_div 6.422868959134176e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10127830154433347
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 5 loss tensor(0.1205, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.7842, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4296, 1.5134, 1.3951,  ..., 1.2688, 1.6560, 1.2216], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0326, 0.9270, 0.9321,  ..., 0.9003, 1.0688, 1.0500], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+original score: 0.7530530688151893 gated_score: 0.7530530768561331
+epoch 5 percent_div -1.0677791689160982e-08 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1015920428969995
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 6 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.8080, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4397, 1.5230, 1.4021,  ..., 1.2719, 1.6647, 1.2270], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0332, 0.9274, 0.9326,  ..., 0.9006, 1.0695, 1.0506], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530750377785 gated_score: 0.7530530700372311
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 6 percent_div 6.6403651832046825e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10180725390750593
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 7 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.8316, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4439, 1.5257, 1.4048,  ..., 1.2736, 1.6701, 1.2297], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0344, 0.9284, 0.9340,  ..., 0.9015, 1.0713, 1.0519], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530712902391 gated_score: 0.7530530726538505
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 7 percent_div -1.810777204085719e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 0., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10177458332036882
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 8 loss tensor(0.1202, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.8550, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4461, 1.5282, 1.4059,  ..., 1.2738, 1.6733, 1.2311], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0350, 0.9289, 0.9348,  ..., 0.9021, 1.0723, 1.0527], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530736341216 gated_score: 0.7530530722191279
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 8 percent_div 1.8790092323181606e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10164649387556136
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 9 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.8784, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4493, 1.5324, 1.4078,  ..., 1.2743, 1.6776, 1.2331], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0360, 0.9297, 0.9359,  ..., 0.9027, 1.0738, 1.0538], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530723624995 gated_score: 0.7530530698598189
+epoch 9 percent_div 3.323378803100556e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10116421377972765
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 10 loss tensor(0.1202, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+tensor(1.9017, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4613, 1.5444, 1.4172,  ..., 1.2781, 1.6879, 1.2398], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0367, 0.9303, 0.9368,  ..., 0.9032, 1.0748, 1.0547], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530725388994 gated_score: 0.7530530734864569
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 10 percent_div -1.2582877774234538e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10096300444942281
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 11 loss tensor(0.1188, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.9248, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4665, 1.5485, 1.4211,  ..., 1.2793, 1.6924, 1.2427], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0384, 0.9318, 0.9383,  ..., 0.9046, 1.0760, 1.0563], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530736461402 gated_score: 0.7530530768450275
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 11 percent_div -4.247891004177032e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10175902589792256
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 12 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.9475, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4825, 1.5651, 1.4331,  ..., 1.2843, 1.7051, 1.2517], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0395, 0.9328, 0.9395,  ..., 0.9053, 1.0779, 1.0575], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530732812158 gated_score: 0.7530530732907641
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 12 percent_div -1.2679386642803181e-11 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10106101621083419
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 13 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.9704, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.4945, 1.5782, 1.4427,  ..., 1.2882, 1.7140, 1.2572], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0411, 0.9342, 0.9411,  ..., 0.9064, 1.0800, 1.0590], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530680602725 gated_score: 0.7530530762024275
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 13 percent_div -1.0812192786407882e-08 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10143283860729954
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 14 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(1.9932, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5069, 1.5920, 1.4518,  ..., 1.2932, 1.7261, 1.2654], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0419, 0.9348, 0.9417,  ..., 0.9067, 1.0810, 1.0595], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530710803229 gated_score: 0.7530530713753888
+epoch 14 percent_div -3.918261168638101e-10 sparsity 1.0
+True
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10133949407262205
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 15 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.0158, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5143, 1.5997, 1.4584,  ..., 1.2943, 1.7308, 1.2693], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0428, 0.9357, 0.9431,  ..., 0.9078, 1.0826, 1.0611], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530712813157 gated_score: 0.7530530709367911
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 15 percent_div 4.5750378583554106e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10127570864059243
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 16 loss tensor(0.1194, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.0384, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5230, 1.6073, 1.4647,  ..., 1.2966, 1.7390, 1.2737], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0439, 0.9365, 0.9444,  ..., 0.9086, 1.0842, 1.0624], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530715638353 gated_score: 0.7530530720191263
+epoch 16 percent_div -6.045935463169127e-10 sparsity 1.0
+True
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10167812730120207
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 17 loss tensor(0.1193, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.0608, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5368, 1.6213, 1.4759,  ..., 1.3019, 1.7487, 1.2808], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0453, 0.9378, 0.9462,  ..., 0.9097, 1.0862, 1.0642], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530731147459 gated_score: 0.7530530687400706
+epoch 17 percent_div 5.809252288943152e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1016117489654314
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 18 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+tensor(2.0831, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5559, 1.6421, 1.4907,  ..., 1.3071, 1.7642, 1.2906], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0461, 0.9386, 0.9470,  ..., 0.9104, 1.0876, 1.0651], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530738188437 gated_score: 0.753053075820587
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 18 percent_div -2.658170315274817e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10119636578611656
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 19 loss tensor(0.1188, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.1055, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5742, 1.6603, 1.5044,  ..., 1.3151, 1.7779, 1.3016], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0467, 0.9392, 0.9479,  ..., 0.9109, 1.0884, 1.0661], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530714225048 gated_score: 0.7530530735555644
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 19 percent_div -2.8325488584710708e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10136697885227709
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 20 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.1275, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.5927, 1.6789, 1.5176,  ..., 1.3218, 1.7934, 1.3120], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0470, 0.9395, 0.9483,  ..., 0.9113, 1.0890, 1.0666], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530732451655 gated_score: 0.7530530732541546
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 20 percent_div -1.193693125073534e-11 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10135090284908263
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 21 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.1497, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.6168, 1.7019, 1.5353,  ..., 1.3300, 1.8106, 1.3236], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0471, 0.9396, 0.9483,  ..., 0.9112, 1.0896, 1.0667], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530742858144 gated_score: 0.7530530718978998
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 21 percent_div 3.170977736250652e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1012554839914123
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 22 loss tensor(0.1196, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.1720, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.6396, 1.7237, 1.5518,  ..., 1.3394, 1.8295, 1.3358], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0475, 0.9400, 0.9487,  ..., 0.9114, 1.0901, 1.0670], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530713723536 gated_score: 0.7530530681308968
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 22 percent_div 4.3044200905490255e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1010558304033521
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 23 loss tensor(0.1192, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.1941, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.6546, 1.7381, 1.5633,  ..., 1.3444, 1.8428, 1.3429], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0476, 0.9401, 0.9488,  ..., 0.9115, 1.0908, 1.0672], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530728100414 gated_score: 0.7530530705287933
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 23 percent_div 3.0293324092220686e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10112013441612994
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 24 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.2160, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.6727, 1.7545, 1.5760,  ..., 1.3512, 1.8582, 1.3518], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0494, 0.9417, 0.9505,  ..., 0.9132, 1.0931, 1.0690], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530698130239 gated_score: 0.753053073874216
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 24 percent_div -5.392969397696231e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10142713421906925
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 25 loss tensor(0.1196, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.2380, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.6932, 1.7744, 1.5913,  ..., 1.3573, 1.8732, 1.3609], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0498, 0.9421, 0.9508,  ..., 0.9135, 1.0942, 1.0693], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530704699453 gated_score: 0.7530530744369726
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 25 percent_div -5.267925220417722e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10113517325782798
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 26 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.2600, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.7105, 1.7918, 1.6054,  ..., 1.3619, 1.8862, 1.3706], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0527, 0.9448, 0.9535,  ..., 0.9159, 1.0974, 1.0720], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530748670895 gated_score: 0.7530530692145919
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 26 percent_div 7.50610782926253e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10111494860864785
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 27 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.2820, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.7271, 1.8058, 1.6167,  ..., 1.3674, 1.8994, 1.3791], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0539, 0.9457, 0.9543,  ..., 0.9167, 1.0988, 1.0730], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530691332046 gated_score: 0.7530530769397443
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 27 percent_div -1.0366520060735275e-08 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 0.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10117665971768464
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 28 loss tensor(0.1202, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.3040, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.7393, 1.8170, 1.6242,  ..., 1.3719, 1.9090, 1.3865], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0560, 0.9475, 0.9560,  ..., 0.9183, 1.1014, 1.0749], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.753053072039999 gated_score: 0.7530530673716953
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 28 percent_div 6.199169642751739e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10157855979754607
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+epoch 29 loss tensor(0.1199, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.3260, device='cuda:3', requires_grad=True)
+False tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.7629, 1.8384, 1.6422,  ..., 1.3798, 1.9267, 1.3993], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0559, 0.9474, 0.9558,  ..., 0.9183, 1.1018, 1.0749], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention False
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530709970682 gated_score: 0.753053072025612
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+Enabling layer 0
+epoch 29 percent_div -1.3658317657736311e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10120673740108073
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 0 loss tensor(0.1193, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.3479, device='cuda:3', requires_grad=True)
+False tensor([2.2541, 1.8247, 2.0529,  ..., 2.0814, 2.0268, 1.9608], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.7828, 1.8578, 1.6574,  ..., 1.3880, 1.9412, 1.4101], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0572, 0.9485, 0.9571,  ..., 0.9194, 1.1035, 1.0760], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530719715025 gated_score: 0.7530530681887007
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 0 percent_div 5.02328718962067e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1009298152815375
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 1 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.3696, device='cuda:3', requires_grad=True)
+False tensor([2.2570, 1.8399, 2.0672,  ..., 2.0997, 2.0282, 1.9746], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.8036, 1.8765, 1.6720,  ..., 1.3947, 1.9567, 1.4215], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0575, 0.9487, 0.9572,  ..., 0.9195, 1.1040, 1.0761], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.753053073417981 gated_score: 0.7530530702036125
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 1 percent_div 4.268448881723308e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1013861663399608
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 2 loss tensor(0.1198, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.3914, device='cuda:3', requires_grad=True)
+False tensor([2.2594, 1.8417, 2.0670,  ..., 2.0948, 2.0365, 1.9752], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.8190, 1.8913, 1.6837,  ..., 1.3997, 1.9682, 1.4296], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0587, 0.9499, 0.9584,  ..., 0.9206, 1.1058, 1.0773], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530758410059 gated_score: 0.7530530688227906
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 2 percent_div 9.319682194214397e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([0., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10105842330709315
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 3 loss tensor(0.1204, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.4132, device='cuda:3', requires_grad=True)
+False tensor([2.2674, 1.8452, 2.0694,  ..., 2.1009, 2.0339, 1.9779], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.8414, 1.9122, 1.7021,  ..., 1.4071, 1.9819, 1.4411], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0603, 0.9513, 0.9599,  ..., 0.9220, 1.1080, 1.0788], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530712917811 gated_score: 0.7530530718767768
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 3 percent_div -7.768319934341734e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10165790265202194
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 4 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.4351, device='cuda:3', requires_grad=True)
+False tensor([2.2758, 1.8500, 2.0758,  ..., 2.1061, 2.0381, 1.9848], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.8546, 1.9247, 1.7123,  ..., 1.4126, 1.9909, 1.4489], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0611, 0.9520, 0.9604,  ..., 0.9224, 1.1088, 1.0794], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.753053075316112 gated_score: 0.7530530733016577
+epoch
+epoch 4 percent_div 2.6750495231893505e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10134001265337025
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 5 loss tensor(0.1194, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.4569, device='cuda:3', requires_grad=True)
+False tensor([2.2716, 1.8447, 2.0720,  ..., 2.1077, 2.0396, 1.9854], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.8747, 1.9449, 1.7283,  ..., 1.4205, 2.0031, 1.4602], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0617, 0.9527, 0.9611,  ..., 0.9230, 1.1101, 1.0801], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530698630945 gated_score: 0.7530530725155851
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 5 percent_div -3.5223155799773105e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10106101621083419
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 6 loss tensor(0.1193, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.4785, device='cuda:3', requires_grad=True)
+False tensor([2.2770, 1.8475, 2.0750,  ..., 2.1118, 2.0417, 1.9879], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.8937, 1.9626, 1.7427,  ..., 1.4279, 2.0149, 1.4707], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0625, 0.9534, 0.9618,  ..., 0.9233, 1.1112, 1.0806], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530726018246 gated_score: 0.7530530725917431
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 6 percent_div 1.3387490954096094e-11 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10126637418712468
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 7 loss tensor(0.1190, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.5001, device='cuda:3', requires_grad=True)
+False tensor([2.2830, 1.8544, 2.0814,  ..., 2.1129, 2.0459, 1.9893], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.9153, 1.9822, 1.7598,  ..., 1.4365, 2.0284, 1.4827], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0640, 0.9548, 0.9632,  ..., 0.9246, 1.1133, 1.0821], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 7 percent_div -3.5570881543836695e-10 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10169005465841086
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 8 loss tensor(0.1204, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.5217, device='cuda:3', requires_grad=True)
+False tensor([2.2886, 1.8578, 2.0860,  ..., 2.1178, 2.0470, 1.9946], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.9402, 2.0045, 1.7803,  ..., 1.4458, 2.0445, 1.4980], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0662, 0.9567, 0.9651,  ..., 0.9262, 1.1163, 1.0839], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530705279929 gated_score: 0.7530530755343944
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 8 percent_div -6.648139037614525e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10099411929431532
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 9 loss tensor(0.1190, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.5435, device='cuda:3', requires_grad=True)
+False tensor([2.2857, 1.8584, 2.0873,  ..., 2.1144, 2.0427, 1.9910], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.9550, 2.0185, 1.7936,  ..., 1.4541, 2.0563, 1.5088], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0674, 0.9579, 0.9662,  ..., 0.9271, 1.1177, 1.0850], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530734076836 gated_score: 0.7530530710834905
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 9 percent_div 3.0863602344986404e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10106620201831627
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 10 loss tensor(0.1188, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.5650, device='cuda:3', requires_grad=True)
+False tensor([2.2897, 1.8606, 2.0903,  ..., 2.1240, 2.0463, 1.9969], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.9728, 2.0351, 1.8076,  ..., 1.4612, 2.0681, 1.5195], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0690, 0.9594, 0.9674,  ..., 0.9283, 1.1189, 1.0863], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530688311841 gated_score: 0.7530530710430439
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 10 percent_div -2.937189818315861e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10135297717207546
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 11 loss tensor(0.1193, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.5865, device='cuda:3', requires_grad=True)
+False tensor([2.2989, 1.8688, 2.0954,  ..., 2.1238, 2.0533, 2.0026], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.0016, 2.0623, 1.8310,  ..., 1.4723, 2.0845, 1.5352], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0696, 0.9600, 0.9681,  ..., 0.9290, 1.1198, 1.0872], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.753053071276984 gated_score: 0.7530530788477509
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 11 percent_div -1.0053430748829076e-08 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10138357343621976
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 12 loss tensor(0.1193, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.6081, device='cuda:3', requires_grad=True)
+False tensor([2.3030, 1.8778, 2.1021,  ..., 2.1304, 2.0576, 2.0044], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.0341, 2.0939, 1.8600,  ..., 1.4866, 2.1039, 1.5544], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0705, 0.9609, 0.9688,  ..., 0.9300, 1.1207, 1.0883], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530737457192 gated_score: 0.7530530756262431
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 12 percent_div -2.4971997649795208e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1012808944480745
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 13 loss tensor(0.1194, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.6297, device='cuda:3', requires_grad=True)
+False tensor([2.3130, 1.8874, 2.1106,  ..., 2.1422, 2.0675, 2.0135], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.0667, 2.1242, 1.8882,  ..., 1.5004, 2.1235, 1.5728], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0703, 0.9607, 0.9686,  ..., 0.9297, 1.1210, 1.0881], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530742490058 gated_score: 0.7530530710178708
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 13 percent_div 4.290713545558749e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10123733366522501
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 14 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.6513, device='cuda:3', requires_grad=True)
+False tensor([2.3142, 1.8894, 2.1102,  ..., 2.1422, 2.0666, 2.0149], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.0943, 2.1502, 1.9125,  ..., 1.5111, 2.1391, 1.5886], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0718, 0.9621, 0.9700,  ..., 0.9313, 1.1231, 1.0896], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530698351 gated_score: 0.7530530722808044
+epoch 14 percent_div -3.2477185403417527e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10076749950734828
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 15 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.6730, device='cuda:3', requires_grad=True)
+False tensor([2.3250, 1.9004, 2.1160,  ..., 2.1520, 2.0724, 2.0222], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.1269, 2.1797, 1.9412,  ..., 1.5265, 2.1598, 1.6072], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0729, 0.9631, 0.9710,  ..., 0.9321, 1.1252, 1.0906], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530720061378 gated_score: 0.7530530719694065
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 15 percent_div 4.87764887309484e-11 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.1011678438449651
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 16 loss tensor(0.1197, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.6946, device='cuda:3', requires_grad=True)
+False tensor([2.3225, 1.8973, 2.1133,  ..., 2.1430, 2.0724, 2.0192], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.1449, 2.1977, 1.9578,  ..., 1.5325, 2.1696, 1.6165], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0747, 0.9646, 0.9727,  ..., 0.9336, 1.1277, 1.0923], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530737540333 gated_score: 0.7530530747048731
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 16 percent_div -1.2626465310859988e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10157544831305683
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 17 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.7163, device='cuda:3', requires_grad=True)
+False tensor([2.3321, 1.9078, 2.1198,  ..., 2.1471, 2.0783, 2.0223], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.1729, 2.2247, 1.9842,  ..., 1.5451, 2.1864, 1.6321], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0761, 0.9659, 0.9740,  ..., 0.9350, 1.1292, 1.0938], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530729855512 gated_score: 0.75305307006537
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 17 percent_div 3.8777893786125305e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10163923374508645
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 18 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.7381, device='cuda:3', requires_grad=True)
+False tensor([2.3382, 1.9149, 2.1258,  ..., 2.1520, 2.0811, 2.0277], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.1969, 2.2482, 2.0066,  ..., 1.5549, 2.2001, 1.6448], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0778, 0.9674, 0.9755,  ..., 0.9366, 1.1312, 1.0954], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530725328858 gated_score: 0.7530530693117435
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 18 percent_div 4.277443860620404e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10101382536274724
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 19 loss tensor(0.1191, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.7599, device='cuda:3', requires_grad=True)
+False tensor([2.3463, 1.9218, 2.1306,  ..., 2.1612, 2.0881, 2.0322], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2184, 2.2684, 2.0262,  ..., 1.5649, 2.2145, 1.6564], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0792, 0.9688, 0.9768,  ..., 0.9380, 1.1326, 1.0970], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530733755547 gated_score: 0.7530530696261779
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 19 percent_div 4.978901144668607e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10199446155760913
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 20 loss tensor(0.1200, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.7815, device='cuda:3', requires_grad=True)
+False tensor([2.3560, 1.9327, 2.1371,  ..., 2.1697, 2.0958, 2.0443], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2608, 2.3100, 2.0665,  ..., 1.5880, 2.2432, 1.6833], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0791, 0.9687, 0.9765,  ..., 0.9376, 1.1327, 1.0967], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530690324356 gated_score: 0.7530530708369337
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 20 percent_div -2.3962429484726136e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10097648754887624
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 21 loss tensor(0.1191, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.8033, device='cuda:3', requires_grad=True)
+False tensor([2.3620, 1.9392, 2.1439,  ..., 2.1781, 2.0986, 2.0518], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.2779, 2.3278, 2.0827,  ..., 1.5965, 2.2525, 1.6936], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0806, 0.9700, 0.9776,  ..., 0.9387, 1.1341, 1.0981], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530658872376 gated_score: 0.7530530695651417
+epoch 21 percent_div -4.883990596411038e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10098115477561011
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 22 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.8249, device='cuda:3', requires_grad=True)
+False tensor([2.3690, 1.9440, 2.1490,  ..., 2.1833, 2.1057, 2.0579], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.3030, 2.3535, 2.1081,  ..., 1.6117, 2.2701, 1.7129], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0818, 0.9711, 0.9785,  ..., 0.9394, 1.1355, 1.0991], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530699155289 gated_score: 0.7530530731477332
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 22 percent_div -4.292133464594262e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10145047035273863
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 23 loss tensor(0.1195, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.8466, device='cuda:3', requires_grad=True)
+False tensor([2.3765, 1.9530, 2.1567,  ..., 2.1914, 2.1106, 2.0668], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.3380, 2.3878, 2.1414,  ..., 1.6300, 2.2912, 1.7343], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0822, 0.9714, 0.9789,  ..., 0.9399, 1.1371, 1.0995], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530713019217 gated_score: 0.7530530690568206
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 23 percent_div 2.9813318484228617e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10113154319259052
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 24 loss tensor(0.1192, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.8684, device='cuda:3', requires_grad=True)
+False tensor([2.3847, 1.9596, 2.1596,  ..., 2.1992, 2.1209, 2.0730], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.3706, 2.4210, 2.1730,  ..., 1.6466, 2.3132, 1.7547], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0822, 0.9714, 0.9788,  ..., 0.9396, 1.1380, 1.0992], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530688992654 gated_score: 0.7530530734561013
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 24 percent_div -6.051148447306258e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 0., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10172739247228185
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 25 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.8901, device='cuda:3', requires_grad=True)
+False tensor([2.3930, 1.9652, 2.1655,  ..., 2.2103, 2.1289, 2.0807], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.3988, 2.4489, 2.2025,  ..., 1.6655, 2.3336, 1.7740], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0818, 0.9711, 0.9784,  ..., 0.9387, 1.1379, 1.0985], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530751868602 gated_score: 0.7530530743408151
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 25 percent_div 1.123486563834104e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10160811890019394
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 26 loss tensor(0.1192, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.9120, device='cuda:3', requires_grad=True)
+False tensor([2.4055, 1.9743, 2.1754,  ..., 2.2245, 2.1384, 2.0889], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.4191, 2.4712, 2.2234,  ..., 1.6776, 2.3482, 1.7894], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0823, 0.9718, 0.9786,  ..., 0.9391, 1.1388, 1.0991], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530751244483 gated_score: 0.7530530689695791
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 26 percent_div 8.173220949753146e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 0., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 0., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10160397025420828
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 27 loss tensor(0.1196, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.9337, device='cuda:3', requires_grad=True)
+False tensor([2.4198, 1.9895, 2.1875,  ..., 2.2367, 2.1484, 2.0988], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.4431, 2.4950, 2.2471,  ..., 1.6927, 2.3645, 1.8038], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0832, 0.9725, 0.9793,  ..., 0.9395, 1.1407, 1.0996], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530680584762 gated_score: 0.7530530712378248
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 27 percent_div -4.221945050191794e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([0., 1., 1.,  ..., 1., 0., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 0.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10123474076148398
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 28 loss tensor(0.1201, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.9556, device='cuda:3', requires_grad=True)
+False tensor([2.4264, 1.9972, 2.1935,  ..., 2.2430, 2.1532, 2.1053], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.4638, 2.5134, 2.2682,  ..., 1.7062, 2.3783, 1.8179], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0849, 0.9740, 0.9811,  ..., 0.9411, 1.1432, 1.1013], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530740163027 gated_score: 0.7530530671698666
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 28 percent_div 9.091571790835638e-09 sparsity 1.0
+True tensor([2.5414, 2.2596, 2.4096,  ..., 2.6110, 2.5889, 2.3604], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([2.2126, 2.2927, 2.2927,  ..., 2.1376, 2.3728, 2.1837], device='cuda:3',
+       grad_fn=<AddBackward0>)
+True tensor([1.9389, 1.7544, 1.7830,  ..., 1.7270, 1.8080, 1.9092], device='cuda:3',
+       grad_fn=<AddBackward0>)
+compute graph mask loss {'word__revrelate__spot': [tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 1.], device='cuda:3', grad_fn=<AddBackward0>), tensor([1., 1., 1.,  ..., 1., 1., 0.], device='cuda:3', grad_fn=<AddBackward0>)]}
+sparsity 0.10142713421906925
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+epoch 29 loss tensor(0.1192, device='cuda:3', grad_fn=<DivBackward0>) penalty tensor(2.8031, device='cuda:3', grad_fn=<AddBackward0>)
+tensor(2.9776, device='cuda:3', requires_grad=True)
+False tensor([2.4338, 2.0014, 2.1980,  ..., 2.2423, 2.1578, 2.1104], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([2.4839, 2.5333, 2.2888,  ..., 1.7203, 2.3934, 1.8328], device='cuda:3',
+       grad_fn=<AddBackward0>)
+False tensor([1.0867, 0.9756, 0.9827,  ..., 0.9427, 1.1448, 1.1031], device='cuda:3',
+       grad_fn=<AddBackward0>)
+attention True
+attention True
+attention True
+attention True
+attention True
+attention True
+original score: 0.7530530732618894 gated_score: 0.753053075714912
+Loading from path /home/yamanishi/project/trip_recommend/data/analyzer/probe.pth
+epoch 29 percent_div -3.2574364941217866e-09 sparsity 1.0

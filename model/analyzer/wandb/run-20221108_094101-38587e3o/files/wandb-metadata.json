@@ -1,0 +1,153 @@
+{
+    "os": "Linux-5.4.0-91-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-11-08T09:41:03.082231",
+    "startedAt": "2022-11-08T09:41:01.989259",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "graphmask.py",
+    "codePath": "analyzer/graphmask.py",
+    "git": {
+        "remote": "git@github.com:HiromasaYamanishi/trip_recommend.git",
+        "commit": "8306613cf615c4d4b66b997ec98cb40dab47bb24"
+    },
+    "email": "yamanishi-hiromasa710@g.ecc.u-toko.ac.jp",
+    "root": "/home/yamanishi/project/trip_recommend",
+    "host": "nene",
+    "username": "yamanishi",
+    "executable": "/home/yamanishi/.pyenv/versions/miniconda3-latest/envs/study_group/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3.903812499999999,
+        "min": 1200.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.949,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.851,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.988,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.683,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.953,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.953,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.952,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.988,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.964,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.93,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.977,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.885,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.589,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.977,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.976,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.846,
+            "min": 1200.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "total": 879.2145729064941,
+        "used": 38.2528190612793
+    },
+    "gpu": "Quadro RTX 8000",
+    "gpu_count": 8,
+    "gpu_devices": [
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        },
+        {
+            "name": "Quadro RTX 8000",
+            "memory_total": 50962169856
+        }
+    ],
+    "memory": {
+        "total": 754.5789947509766
+    }
+}
